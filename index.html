@@ -1,186 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Thiago3d Games</title>
-    <!-- Meta tags OG para compartilhamento no Facebook -->
-    <meta property="og:title" content="Thiago3d Games">
-    <meta property="og:description" content="Descrição do aplicativo Play Store">
-    <meta property="og:image" content="https://scontent.fvix1-1.fna.fbcdn.net/v/t39.30808-6/350671540_2240961402756465_8044463766000248913_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=i_zB6fLCGJkAX-X6RC5&_nc_ht=scontent.fvix1-1.fna&oh=00_AfCHoQS9NpRM7WCYk6OFm6lGG7G_GJ7zcUGVgaxSA7CsEA&oe=647CAD8A">
-    <meta property="og:url" content="https://www.facebook.com/thiago3dgames">
-    <meta property="og:type" content="https://www.facebook.com/thiago3dgames">
-    <style>
-        /* Estilos CSS para emular a aparência da APP Play Store */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        #header {
-            background-color: #4285F4;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        
-        #content {
-            padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            justify-items: center;
-        }
-        
-        .app {
-            width: 100%;
-            max-width: 300px;
-            text-align: center;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .app img {
-            width: 100%;
-            max-height: 200px;
-            object-fit: cover;
-            cursor: pointer;
-        }
-        
-        .app h3 {
-            margin: 10px 0;
-            font-size: 18px;
-            color: #333;
-        }
-        
-        .app p {
-            margin: 0;
-            font-size: 14px;
-            color: #777;
-        }
-        
-        .app a {
-            display: block;
-            margin-top: 10px;
-            background-color: #4285F4;
-            color: #fff;
-            padding: 8px 16px;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-        
-        .app a:hover {
-            background-color: #3367D6;
-        }
-        
-        .popup-container {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            z-index: 9999;
-        }
-        
-        .popup-video {
-            position: absolute;
-            top: calc(50% - 150px); /* Alterado para centralizar verticalmente */
-            left: calc(50% - 150px); /* Alterado para centralizar horizontalmente */
-            width: 300px; /* Alterado para 300 pixels */
-            height: 300px; /* Alterado para 300 pixels */
-        }
-        
-        .popup-video iframe {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .close-button {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        
-        @media (max-width: 768px) {
-            .app {
-                width: 100%;
-                max-width: 100%;
-            }
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+		
+	<style>
     </style>
+	
+	
 </head>
+
+
+
+
+
 <body>
-    <div id="header">
-	
-	
-        <h1>Thiago3d Games</h1>
-		
-		
+
+
+ <div class="floating-chat">
+        <a href="https://api.whatsapp.com/send?phone=5527988446626" target="_blank">
+            <img src="zaplog2.png" alt="WhatsApp">
+        </a>
     </div>
-    <div id="content">
+
+
+
+
+    <div class="header">
+        <a href="#">
+            <img src="th3d.png" alt="Descrição da Imagem" class="logo">
+        </a>
+        <div>
+            <button class="menu-button">Home</button>
+            <button class="menu-button">Thiago3d Games</button>
+            <button class="menu-button">Sites</button>
+        </div>
+    </div>
+    <video autoplay loop muted>
+        <source src="gla2.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <a href="#" target="_blank">
+                    <img src="imagem1.jpg" alt="Imagem 1">
+                </a>
+            </div>
+            <div class="carousel-slide">
+                <a href="#" target="_blank">
+                    <img src="imagem2.jpg" alt="Imagem 2">
+                </a>
+            </div>
+            <div class="carousel-slide">
+                <a href="#" target="_blank">
+                    <img src="imagem3.jpg" alt="Imagem 3">
+                </a>
+            </div>
+        </div>
+    </div>
+	
+	
+	
+	<div class="container">
         <div class="app">
-            <img src="pilo2.jpg" alt="" onclick="showVideo('https://www.youtube.com/embed/glzdVJWvyWI')">
-            <h3>Pilotop</h3>
-            <p></p>
-            <a href="https://play.google.com/store/apps/details?id=app.thiago.top">Baixar agora</a>
+            <img src="brs1.jpg" alt="" onclick="showVideo('https://www.youtube.com/embed/t-e75fWxaZA')">
+            <h3>Super Brasil Soccer 1</h3>
+            <p>Descrição do aplicativo 1.</p>
+            <a href="https://play.google.com/store/apps/details?id=app.thiago.soccebr" target="_blank"><button class="menu-button">Baixar agora</button></a>
         </div>
-    </div>
-	
-	 <div id="popup-container" class="popup-container">
-        <div class="popup-video">
-            <iframe src="" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <span class="close-button" onclick="hideVideo()">×</span>
-    </div>
-	
-	
-	
-	 </div>
-    <div id="content">
+
         <div class="app">
             <img src="brs2.jpg" alt="" onclick="showVideo('https://www.youtube.com/embed/t-e75fWxaZA')">
-            <h3>Super Brasil Soccer</h3>
-            <p></p>
-            <a href="https://play.google.com/store/apps/details?id=app.thiago.soccebr">Baixar agora</a>
+            <h3>Super Brasil Soccer 2</h3>
+            <p>Descrição do aplicativo 2.</p>
+            <a href="https://play.google.com/store/apps/details?id=app.thiago.soccebr" target="_blank"><button class="menu-button">Baixar agora</button></a>
+        </div>
+
+        <div class="app">
+            <img src="brs3.jpg" alt="" onclick="showVideo('https://www.youtube.com/embed/t-e75fWxaZA')">
+            <h3>Super Brasil Soccer 3</h3>
+            <p>Descrição do aplicativo 3.</p>
+            <a href="https://play.google.com/store/apps/details?id=app.thiago.soccebr" target="_blank"><button class="menu-button">Baixar agora</button></a>
         </div>
     </div>
-	
-	 <div id="popup-container" class="popup-container">
+
+    <div id="popup-container" class="popup-container">
         <div class="popup-video">
             <iframe src="" frameborder="0" allowfullscreen></iframe>
         </div>
         <span class="close-button" onclick="hideVideo()">×</span>
     </div>
-	
-	
-	
-    <script>
-	
-	
-	
-        // Funções JavaScript para mostrar e esconder o vídeo em um popup
-        function showVideo(url) {
-          var popup = document.getElementById("popup-container");
-          var video = document.querySelector(".popup-video iframe");
-          popup.style.display = "block";
-          video.src = url;
-        }
 
-        function hideVideo() {
-          var popup = document.getElementById("popup-container");
-          var video = document.querySelector(".popup-video iframe");
-          popup.style.display = "none";
-          video.src = "";
-        }
+
+
+    <script src="scripts.js"></script>
+	
+	
+	
+	
+    <div class="info-block">
+        <!-- Conteúdo dos blocos de informação -->
+    </div>
+    <div class="info-block">
+        <!-- Conteúdo dos blocos de informação -->
+    </div>
+    <div class="footer">
+        <div class="sitemap">
+            <a href="#">Página Inicial</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Serviços</a>
+            <a href="#">Portfólio</a>
+            <a href="#">Contato</a>
+			
+			<p>
+			@Thiago3d Games - 2023
+			</p>
+			
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        // JavaScript para lidar com o clique nos botões do menu
+        $('.menu-button').click(function() {
+            $('.menu-button').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        // Inicialize o carrossel
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: true
+            });
+        });
+        // Resto do seu JavaScript...
     </script>
-	
-	
 </body>
 </html>
