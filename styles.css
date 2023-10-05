@@ -33,6 +33,18 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Estilos para o vídeo */
 video {
     width: 100%;
@@ -80,6 +92,7 @@ video {
 
 /* Estilos para os blocos de informação */
 .info-block {
+	text-align: justify;
     background-color: #f0f0f0;
     padding: 20px;
     margin: 20px;
@@ -88,6 +101,14 @@ video {
     justify-content: space-between;
     position: relative; /* Adicionado para posicionamento da moldura */
 }
+
+
+
+
+
+
+
+
 
 .info-item {
     flex-basis: calc(33.33% - 20px);
@@ -267,3 +288,6 @@ video {
         width: 100%;
     }
 }
+
+
+
