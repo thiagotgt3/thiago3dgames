@@ -1,0 +1,15 @@
+{
+  "name": "Miniature Skate (Geometry monster)",
+  "short_name": "Miniature Skate (Geometry monster)",
+  "id": "com.example.geometrymonster",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "monster-idle0.png",
+        "sizes": "512x512"
+      }]
+}
