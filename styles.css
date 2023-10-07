@@ -93,7 +93,7 @@ video {
 /* Estilos para os blocos de informação */
 .info-block {
 	text-align: justify;
-    background-color: #f0f0f0;
+    background-color: #00CC33;
     padding: 20px;
     margin: 20px;
     display: flex;
@@ -231,7 +231,7 @@ video {
 
 .app {
     width: calc(33.33% - 20px);
-    background-color: #f0f0f0;
+    background-color: #0099FF;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
