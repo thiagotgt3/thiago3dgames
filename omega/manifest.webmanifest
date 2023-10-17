@@ -1,0 +1,30 @@
+{
+  "name": "Omega",
+  "short_name": "Omega",
+  "id": "app.thiago.omega",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "shot.png",
+        "sizes": "36x36"
+      },{
+        "src": "shot.png",
+        "sizes": "48x48"
+      },{
+        "src": "shot.png",
+        "sizes": "72x72"
+      },{
+        "src": "shot.png",
+        "sizes": "96x96"
+      },{
+        "src": "shot.png",
+        "sizes": "144x144"
+      },{
+        "src": "shot.png",
+        "sizes": "192x192"
+      }]
+}
