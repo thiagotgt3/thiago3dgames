@@ -1,10 +1,9 @@
-/* Estilize o link de categoria ativo */
+
 .active {
     color: yellow;
-    /* Adicione outros estilos desejados aqui */
+    
 }
 
-/* Estilize os botões do menu */
 .menu-button {
     background-color: blue;
     color: white;
@@ -14,83 +13,51 @@
     margin-right: 10px;
 }
 
-/* Estilize o botão do menu quando clicado */
+
 .menu-button.active {
     background-color: green;
 }
 
-/* Estilos para o corpo do documento */
 
 body {
     margin: 0;
     padding: 0;
-    background-image: url('brabra.jpg'); /* Substitua 'bandeira-do-brasil.jpg' pelo caminho da sua imagem */
+    background-image: url('brabra.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Isso tornará a imagem de fundo fixa */
+    background-attachment: fixed; 
     font-family: Arial, sans-serif;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Estilos para o vídeo */
 video {
     width: 100%;
     height: auto;
 }
 
-/* Estilos para o cabeçalho */
-.header {
-    background-color: yellow;
-    color: white;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+
 
 .logo {
-    max-width: 160px;
+    max-width: 10px;
     height: auto;
 }
 
-.header a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
+.menuh {
+  margin-right: 190px; 
 }
 
-/* Estilos para o carrossel */
-.carousel-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+
+
+.menuh2 {
+  margin-right: 299px; 
 }
 
-.carousel-slide {
-    text-align: center;
-    padding: 20px;
-}
 
-.carousel img {
-    max-width: 100%;
-    height: auto;
-}
 
-/* Estilos para os blocos de informação */
+
 .info-block {
 	text-align: justify;
     background-color: #00CC33;
@@ -99,28 +66,15 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative; /* Adicionado para posicionamento da moldura */
+    position: relative; 
 }
-
-
-
-
-
-
-
 
 
 .info-item {
     flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
-    padding: 10px;
     text-align: center;
-    position: relative; /* Adicionado para posicionamento da moldura */
-}
-
-.info-item img {
-    max-width: 100%;
-    height: auto;
+    position: relative; 
 }
 
 .info-item button {
@@ -128,15 +82,24 @@ video {
     color: white;
     border: none;
     padding: 10px 20px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
+	flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+	
 }
 
-/* Moldura de destaque */
+.info-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .highlight-frame {
     position: absolute;
     top: 0;
@@ -147,7 +110,7 @@ video {
     z-index: -1;
 }
 
-/* Estilos responsivos */
+
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -168,7 +131,7 @@ video {
     }
 }
 
-/* Estilos para o rodapé */
+
 .footer {
     background-color: yellow;
     padding: 20px;
@@ -184,21 +147,20 @@ video {
 }
 
 
-/* Estilos para o botão de bate-papo flutuante */
 .floating-chat {
     position: fixed;
     bottom: 80px;
     right: 80px;
-    background-color: green; /* Cor de fundo do botão */
+    background-color: green; 
     border-radius: 50%;
     width: 99px;
     height: 99px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     cursor: pointer;
-    z-index: 9999; /* Para ficar sobre outros elementos */
+    z-index: 9999; 
 }
 
 .floating-chat img {
@@ -206,15 +168,9 @@ video {
     height: 80px;
 }
 
-/* Estilize o botão ao passar o mouse */
 .floating-chat:hover {
-    background-color: #25d366; /* Cor de fundo ao passar o mouse (cor do WhatsApp) */
+    background-color: #25d366; 
 }
-
-/* Resto dos estilos do seu site... */
-
-
-
 
 
 
@@ -224,9 +180,7 @@ video {
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px;
-	
-	
-	
+		
 }
 
 .app {
@@ -243,7 +197,10 @@ video {
     cursor: pointer;
 }
 
-/* Estilos para o modal de vídeo */
+
+
+
+
 .popup-container {
     display: none;
     position: fixed;
@@ -276,6 +233,111 @@ video {
 }
 
 
+
+#game-popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+#game-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#close-game-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.logo2 a {
+    width: 163px;
+    height: 117px;
+    background: url(logo3.png) no-repeat;
+    display: block;
+    position: relative;
+    top: -1px;
+    padding: 0px !important;
+}
+
+.logo2 a:hover {
+    background: url(logo4.png) no-repeat;
+}
+
+.logo2 {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        margin-left: -78px;
+    }
+	
+.logo2 {
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+	
+.logo2 a{
+   width: 163px !important;
+   height: 117px !important;
+}
+
+
+.logo3 a {
+    width: 163px;
+    height: 117px;
+    background: url(logo5.png) no-repeat;
+    display: block;
+    position: relative;
+    top: -1px;
+    padding: 0px !important;
+}
+
+.logo3 a:hover {
+    background: url(logo6.png) no-repeat;
+}
+
+.logo3 {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        margin-left: -78px;
+    }
+	
+.logo3 {
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+	
+.logo3 a{
+   width: 163px !important;
+   height: 117px !important;
+}
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .app {
         width: calc(50% - 20px);
@@ -288,6 +350,5 @@ video {
         width: 100%;
     }
 }
-
 
 
