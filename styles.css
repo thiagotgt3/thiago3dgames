@@ -133,7 +133,7 @@ video {
 
 
 .footer {
-    background-color: #000; /* Fondo negro */
+    background-color: #FFCC00; /* Fondo negro */
     padding: 20px; /* Relleno de 20 píxeles */
     color: #fff; /* Color de texto blanco (opcional, para hacer el texto visible en el fondo negro) */
     text-align: center; /* Alineación del texto al centro (opcional) */
