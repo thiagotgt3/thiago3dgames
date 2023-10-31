@@ -1,34 +1,34 @@
 {
-	"name": "Thiago3D Games",
-	"short_name": "Thiago3D Games",
-	"description": "Thiago3D Games",
+	"name": "Thiago3D",
+	"short_name": "Thiago3D",
+	"description": "Thiago3D Games Total",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
 	"background_color": "#000",
 	"icons": [
 		{
-			"src": "https://www.thiago3dgames.site/32.png",
+			"src": "32.png",
 			"sizes": "16x16",
 			"type": "image/png"
 		},
 		{
-			"src": "https://www.thiago3dgames.site/114.png",
+			"src": "114.png",
 			"sizes": "32x32",
 			"type": "image/png"
 		},
 		{
-			"src": "https://www.thiago3dgames.site/128.png",
+			"src": "128.png",
 			"sizes": "114x114",
 			"type": "image/png"
 		},
 		{
-			"src": "https://www.thiago3dgames.site/144.png",
+			"src": "144.png",
 			"sizes": "128x128",
 			"type": "image/png"
 		},
 		{
-			"src": "https://www.thiago3dgames.site/256.png",
+			"src": "256.png",
 			"sizes": "256x256",
 			"type": "image/png"
 		}
