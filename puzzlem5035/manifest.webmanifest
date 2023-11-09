@@ -1,0 +1,19 @@
+{
+  "name": "Monster Puzzle",
+  "short_name": "Monster Puzzle",
+  "id": "goodorange1.vercel.app",
+  "description": "Monster Puzzle",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "lang": "pt-BR",  // Idioma (Português do Brasil)
+  "dir": "ltr",      // Direção do texto (da esquerda para a direita)
+  "icons": [
+    {
+      "src": "./ebr4.png",
+      "sizes": "512x512"
+    }
+  ]
+}
